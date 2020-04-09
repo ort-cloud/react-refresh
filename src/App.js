@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import GoalList from "./components/GoalList";
+import GoalList from "./components/GoalList/GoalList";
 
 const App = () => {
   const courseGoals = [
