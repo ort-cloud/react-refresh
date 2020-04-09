@@ -1,13 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
+import './App.css'
 
-/* const App = () => {
-  return <h1 title="This works!">A React App!</h1>;
-}; */
-
-class App extends Component {
-  render() {
-    return <h1 title="This works!">A React App!</h1>;
-  }
-}
+const App = () => {
+  return <div className="course-goals">
+    <h2>Course Goals</h2>
+    <ul className="goal-list">
+      <li>Finish the Course</li>
+      <li>Learn all about the course main topic</li>
+      <li>Help other students in the course Q & A</li>
+    </ul>
+  </div>
+};
 
 export default App;
