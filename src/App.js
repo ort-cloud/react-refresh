@@ -10,12 +10,6 @@ const App = () => {
     {id: "cg3", text: "Help other students in the course Q&A"},
   ]);
 
-  /*   const courseGoals = [
-    {id: "cg1", text: "Finish the Course"},
-    {id: "cg2", text: "Learn all about the course main topic"},
-    {id: "cg3", text: "Help other students in the course Q&A"},
-  ]; */
-
   const addNewGoalHandler = (newGoal) => {
     setCourseGoals(courseGoals.concat(newGoal));
   };
